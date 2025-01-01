@@ -1,0 +1,17 @@
+.banner-text {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 9px 0;
+}
+
+.banner-text a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.banner-text a:hover {
+	text-decoration: underline;
+}
