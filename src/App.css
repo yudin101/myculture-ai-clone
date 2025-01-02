@@ -1,4 +1,14 @@
+.gradient-text {
+	font-weight: 400;
+	background: linear-gradient(90deg, #ff7f50, #1e90ff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .banner-text {
+	position: fixed;
+	width: 100%;
 	background-color: #000;
 	color: #fff;
 	text-align: center;
@@ -14,4 +24,79 @@
 
 .banner-text a:hover {
 	text-decoration: underline;
+}
+
+.above-footer-body {
+	margin-top: 265px;
+	width: 90%;
+}
+
+.top-text-first {
+	color: #2138a8;
+	background-color: #edf2ff;
+	padding: 5px 10px;
+	margin-right: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	border-radius: 20px;
+}
+
+.ib-content-box {
+	display: flex;
+}
+
+.cbl-large-text {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 70px;
+}
+
+.cbl-small-text {
+	color: #343a40;
+	font-weight: 300;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+.cb-right img {
+	width: 715px;
+}
+
+.pre-features {
+	margin-top: 70px;
+}
+
+.pf-heading-text {
+	color: #000;
+	font-size: 65px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.pf-card-box {
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.features-box {
+	margin-top: 70px;
+	text-align: center;
+}
+
+.features-box h1 {
+	font-size: 50px;
+}
+
+.features-box p {
+	color: #343a40;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.feature-card-box {
+	margin-top: 40px;
 }
