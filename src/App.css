@@ -81,7 +81,6 @@
 	justify-content: space-around;
 }
 
-
 .features-box {
 	margin-top: 70px;
 	text-align: center;
@@ -99,4 +98,86 @@
 
 .feature-card-box {
 	margin-top: 40px;
+}
+
+.how-it-works {
+	margin-top: 60px;
+	display: flex;
+}
+
+.hiw-left {
+	width: 25%;
+	color: white;
+	background: linear-gradient(to bottom, #fbbb2a, #fa5456, #70ace3);
+	padding: 65px;
+	border-radius: 25px;
+}
+
+.hiw-left h1 {
+	font-size: 52px;
+	font-weight: 800;
+}
+
+.hiw-left p {
+	font-size: 23px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.hiw-right {
+	padding: 0 75px;
+}
+
+.assessments,
+.compare,
+.toolbox {
+	margin-top: 40px;
+}
+
+.assessments-head-text,
+.compare-head-text {
+	text-align: center;
+}
+
+.assessments-head-text h1,
+.compare-head-text h1,
+.toolbox-head-text h1 {
+	font-size: 57px;
+	font-weight: 700;
+}
+
+.assessments-head-text p,
+.compare-head-text p,
+.toolbox-head-text p {
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.assessments-card-box,
+.compare-card-box,
+.toolbox-card-box {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.assessments-card-box div,
+.compare-card-box div,
+.toolbox-card-box div {
+	background-color: #fff;
+	width: 25%;
+	margin-bottom: 50px;
+}
+
+.toolbox {
+	display: relative;
+	width: 100vw;
+	margin-left: -5vw;
+	background: linear-gradient(to top right, #70ace3, #fa5456, #fbbb2a);
+}
+
+.toolbox-head-text {
+	padding-top: 50px;
+	margin-left: 6vw;
 }
