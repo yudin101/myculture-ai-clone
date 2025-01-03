@@ -20,6 +20,25 @@
 	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
 }
 
+.dropdown {
+	position: absolute;
+	top: 4.5rem;
+	right: 20rem;
+	background-color: #f7f8fb;
+	padding: 5px 40px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown a {
+	text-decoration: none;
+	color: #000;
+}
+
+.dropdown a:hover {
+	text-decoration: underline;
+}
+
 .logoText {
 	display: flex;
 	align-items: center;

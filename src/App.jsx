@@ -520,7 +520,10 @@ export default function App() {
 					<div className="pre-footer-card">
 						<div className="pfc-left">
 							<h1>Ready to act on your values?</h1>
-							<p>Sign up, create an assessment, and share them with your candidates in no time!</p>
+							<p>
+								Sign up, create an assessment, and share them with your
+								candidates in no time!
+							</p>
 						</div>
 						<div className="pfc-right">
 							<Button1
@@ -544,36 +547,84 @@ export default function App() {
 						<li className="flb-links-list">
 							<h4>Solutions</h4>
 							<ul className="flb-links">
-								<li><a href="https://happily.ai/">Happily.ai</a></li>
-								<li><a href="https://myculture.ai/">MyCulture.ai</a></li>
+								<li>
+									<a href="https://happily.ai/">Happily.ai</a>
+								</li>
+								<li>
+									<a href="https://myculture.ai/">MyCulture.ai</a>
+								</li>
 							</ul>
 						</li>
 						<li className="flb-links-list">
 							<h4>Sitemap</h4>
 							<ul className="flb-links">
-								<li><a href="#how-it-works">How it works</a></li>
-								<li><a href="#pricing">Pricing</a></li>
-								<li><a href="#features">Features</a></li>
-								<li><a href="#resources">Resources</a></li>
-								<li><a href="https://www.myculture.ai/privacy-policy">Privacy Policy</a></li>
-								<li><a href="https://www.myculture.ai/terms-and-conditions">Terms and Conditions</a></li>
+								<li>
+									<a href="#how-it-works">How it works</a>
+								</li>
+								<li>
+									<a href="#pricing">Pricing</a>
+								</li>
+								<li>
+									<a href="#features">Features</a>
+								</li>
+								<li>
+									<a href="#resources">Resources</a>
+								</li>
+								<li>
+									<a href="https://www.myculture.ai/privacy-policy">
+										Privacy Policy
+									</a>
+								</li>
+								<li>
+									<a href="https://www.myculture.ai/terms-and-conditions">
+										Terms and Conditions
+									</a>
+								</li>
 							</ul>
 						</li>
 						<li className="flb-links-list">
 							<h4>Toolbox</h4>
 							<ul className="flb-links">
-								<li><a href="https://myculture.ai/job-post-generator">Job Post Generator</a></li>
-								<li><a href="https://myculture.ai/team-role-generator">Team Role Generator</a></li>
-								<li><a href="https://myculture.ai/30-60-90-day-plan-generator">30/60/90-day Plan</a></li>
-								<li><a href="https://myculture.ai/career-tracker-generator">OKR Generator</a></li>
-								<li><a href="https://myculture.ai/career-tracker-generator">Career Tracker Generator</a></li>
-								<li><a href="https://myculture.ai/performance-improvement-plan-generator">Performance Improvement Plan</a></li>
+								<li>
+									<a href="https://myculture.ai/job-post-generator">
+										Job Post Generator
+									</a>
+								</li>
+								<li>
+									<a href="https://myculture.ai/team-role-generator">
+										Team Role Generator
+									</a>
+								</li>
+								<li>
+									<a href="https://myculture.ai/30-60-90-day-plan-generator">
+										30/60/90-day Plan
+									</a>
+								</li>
+								<li>
+									<a href="https://myculture.ai/career-tracker-generator">
+										OKR Generator
+									</a>
+								</li>
+								<li>
+									<a href="https://myculture.ai/career-tracker-generator">
+										Career Tracker Generator
+									</a>
+								</li>
+								<li>
+									<a href="https://myculture.ai/performance-improvement-plan-generator">
+										Performance Improvement Plan
+									</a>
+								</li>
 							</ul>
 						</li>
 						<li className="flb-links-list">
 							<h4>Contact Us</h4>
 							<ul className="flb-links">
-								<li><a href="https://www.myculture.ai/contact-us">Submit a Form</a></li>
+								<li>
+									<a href="https://www.myculture.ai/contact-us">
+										Submit a Form
+									</a>
+								</li>
 							</ul>
 						</li>
 					</ul>
