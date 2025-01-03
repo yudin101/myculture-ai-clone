@@ -1,5 +1,6 @@
 .featureCard {
 	display: flex;
+	flex-wrap: wrap;
 	background-color: #fff;
 	padding: 50px;
 	margin-bottom: 30px;
@@ -26,4 +27,13 @@
 
 .fcImg img {
 	width: 500px;
+	max-width: 100%;
+	height: auto;
+}
+
+@media (max-width: 1300px) {
+	.fcText {
+		width: 100%;
+		margin-right: 0;
+	}
 }

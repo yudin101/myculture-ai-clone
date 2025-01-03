@@ -96,3 +96,51 @@
 	background-color: #000;
 	box-shadow: 0 8px 20px rgba(0, 248, 252, 0.9);
 }
+
+.hamburgerMenuIcon,
+.sidebar {
+	display: none;
+}
+
+@media (max-width: 1300px) {
+	.navLinkBox {
+		display: none;
+	}
+
+	.hamburgerMenuIcon {
+		display: block;
+		font-size: 25px;
+		cursor: pointer;
+	}	
+
+	.sidebar {
+		display: block;
+		width: 80%;
+		z-index: 1001;
+		position: fixed;
+		right: 0;
+		height: 100%;
+		background-color: #fff;
+		box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
+	}
+
+	.sidebarNavLinkBox {
+		list-style: none;
+		padding-top: 30px;
+		padding-left: 30px;
+	}
+
+	.sidebarNavLink {
+		display: inline-block;
+		font-size: 20px;
+		width: 100%;
+		margin-top: 7px;
+		text-decoration: none;
+		color: #000;
+	}
+
+	.sidebarButton {
+		display: inline-block;
+		margin-top: 20px;
+	}
+}

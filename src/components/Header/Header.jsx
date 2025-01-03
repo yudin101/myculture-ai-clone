@@ -2,13 +2,81 @@ import { useState } from "react";
 import styles from "./Header.module.css";
 
 export default function Header() {
-	const [isVisible, setIsVisible] = useState(false);
+	const [isLangVisible, setIsLangVisible] = useState(false);
+	const [isSidebarActive, setIsSidebarActive] = useState(false);
 
 	return (
 		<>
+			{isSidebarActive && (
+				<div className={styles.sidebar}>
+					<ul className={styles.sidebarNavLinkBox}>
+						<li>
+							<a
+								onClick={() => setIsSidebarActive(!isSidebarActive)}
+								className={styles.sidebarNavLink}
+								href="#features"
+							>
+								Features
+							</a>
+						</li>
+						<li>
+							<a
+								onClick={() => setIsSidebarActive(!isSidebarActive)}
+								className={styles.sidebarNavLink}
+								href="#how-it-works"
+							>
+								How it works
+							</a>
+						</li>
+						<li>
+							<a
+								onClick={() => setIsSidebarActive(!isSidebarActive)}
+								className={styles.sidebarNavLink}
+								href="#assessments"
+							>
+								Assessments
+							</a>
+						</li>
+						<li>
+							<a
+								onClick={() => setIsSidebarActive(!isSidebarActive)}
+								className={styles.sidebarNavLink}
+								href="#pricing"
+							>
+								Pricing
+							</a>
+						</li>
+						<li>
+							<a
+								className={styles.sidebarNavLink}
+								href="https://blog.happily.ai"
+							>
+								Blog
+							</a>
+						</li>
+						<li>
+							<a
+								className={`${styles.sidebarButton} ${styles.navButton} ${styles.navButtonLogin}`}
+								href="https://app.myculture.ai/login"
+							>
+								Login
+							</a>
+						</li>
+						<li>
+							<a
+								className={`${styles.sidebarButton} ${styles.navButton} ${styles.navButtonRegister}`}
+								href="https://app.myculture.ai/signup"
+							>
+								Sign up
+							</a>
+						</li>
+					</ul>
+				</div>
+			)}
+
 			<header className={styles.header}>
 				<div className={styles.headerMainDiv}>
-					{isVisible && (
+					{isLangVisible && (
 						<div className={styles.dropdown}>
 							<a href="https://www.myculture.ai/th">ไทย</a>
 						</div>
@@ -18,6 +86,13 @@ export default function Header() {
 						<img src="/src/assets/myculture-logo.png" />
 						<h2>MyCulture.ai</h2>
 					</a>
+
+					<h3
+						onClick={() => setIsSidebarActive(!isSidebarActive)}
+						className={styles.hamburgerMenuIcon}
+					>
+						☰
+					</h3>
 
 					<ul className={styles.navLinkBox}>
 						<li>
@@ -45,7 +120,7 @@ export default function Header() {
 								Blog
 							</a>
 						</li>
-						<li onClick={() => setIsVisible(!isVisible)}>
+						<li onClick={() => setIsLangVisible(!isLangVisible)}>
 							<span className={styles.navLink}>🌐 Eng ⌄</span>
 						</li>
 						<li>
