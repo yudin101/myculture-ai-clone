@@ -130,7 +130,8 @@
 
 .assessments,
 .compare,
-.toolbox {
+.toolbox,
+.pricing {
 	margin-top: 40px;
 }
 
@@ -141,21 +142,25 @@
 
 .assessments-head-text h1,
 .compare-head-text h1,
-.toolbox-head-text h1 {
+.toolbox-head-text h1,
+.pricing-head-text h1 {
 	font-size: 57px;
 	font-weight: 700;
+	color: #212529;
 }
 
 .assessments-head-text p,
 .compare-head-text p,
-.toolbox-head-text p {
+.toolbox-head-text p,
+.pricing-head-text p{
 	font-size: 23px;
 	font-weight: 300;
 }
 
 .assessments-card-box,
 .compare-card-box,
-.toolbox-card-box {
+.toolbox-card-box,
+.pricing-card-box {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -164,7 +169,8 @@
 
 .assessments-card-box div,
 .compare-card-box div,
-.toolbox-card-box div {
+.toolbox-card-box div,
+.pricing-card-box div {
 	background-color: #fff;
 	width: 25%;
 	margin-bottom: 50px;
@@ -180,4 +186,29 @@
 .toolbox-head-text {
 	padding-top: 50px;
 	margin-left: 6vw;
+}
+
+.pricing-head-text {
+	margin-left: 27px;
+}
+
+.pricing-card-box div .first-note {
+	color: #696c80;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.pricing-card-box div .first-note i {
+	color: #9c36b5;
+}
+
+.pricing-card-box .pc-other a {
+	color: #000;
+	background-color: #f0f0f0;
+	transition: 0.2s;
+}
+
+.pricing-card-box .pc-other a:hover {
+	background-color: #d0d0d0;
+	box-shadow: none;
 }

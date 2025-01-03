@@ -1,0 +1,52 @@
+.pricingCard {
+	border-radius: 30px;
+	margin: 0 20px;
+	padding: 40px 30px;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pricingCard h2 {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.pricingCard .text {
+	color: #696c80;
+	font-size: 17px;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+
+.pricingCard h1 {
+	display: flex;
+	align-items: center;
+	font-size: 40px;
+	margin-bottom: 7px;
+}
+
+.pricingCard h1 span {
+	color: #696c80;
+	font-size: 15px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+.pricingCard a {
+	width: 85%;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.pricingCard .pointText {
+	color: #696c80;
+	font-weight: 500;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.pricingCard .points {
+	color: #696c80;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
