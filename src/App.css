@@ -15,6 +15,7 @@
 	font-size: 15px;
 	font-weight: 300;
 	padding: 9px 0;
+	z-index: 1000;
 }
 
 .banner-text a {
@@ -26,7 +27,7 @@
 	text-decoration: underline;
 }
 
-.above-footer-body {
+.main-body {
 	margin-top: 265px;
 	width: 90%;
 }
@@ -128,55 +129,44 @@
 	padding: 0 75px;
 }
 
-.assessments,
-.compare,
-.toolbox,
-.pricing {
+.section {
 	margin-top: 40px;
 }
 
 .assessments-head-text,
-.compare-head-text {
+.compare-head-text,
+.culture-assessments-head-text,
+.resources-head-text {
 	text-align: center;
 }
 
-.assessments-head-text h1,
-.compare-head-text h1,
-.toolbox-head-text h1,
-.pricing-head-text h1 {
+.section-head-text h1 {
 	font-size: 57px;
 	font-weight: 700;
 	color: #212529;
 }
 
-.assessments-head-text p,
-.compare-head-text p,
-.toolbox-head-text p,
-.pricing-head-text p{
+.section-head-text p {
 	font-size: 23px;
 	font-weight: 300;
 }
 
-.assessments-card-box,
-.compare-card-box,
-.toolbox-card-box,
-.pricing-card-box {
+.section-card-box,
+.resources-card-box {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 30px;
 }
 
-.assessments-card-box div,
-.compare-card-box div,
-.toolbox-card-box div,
-.pricing-card-box div {
+.section-card-box div {
 	background-color: #fff;
 	width: 25%;
 	margin-bottom: 50px;
 }
 
-.toolbox {
+.toolbox,
+.pre-footer {
 	display: relative;
 	width: 100vw;
 	margin-left: -5vw;
@@ -211,4 +201,144 @@
 .pricing-card-box .pc-other a:hover {
 	background-color: #d0d0d0;
 	box-shadow: none;
+}
+
+.faq-card-box {
+	justify-content: space-between;
+}
+
+.faq-card-box .faq-card {
+	width: 47%;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+.faq-card-box p {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.culture-assessments-table-box {
+	color: #696c80;
+	margin-top: 100px;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.1);
+	border-radius: 25px;
+}
+
+.ca-table thead {
+	font-size: 20px;
+	text-align: left;
+}
+
+.ca-table thead tr th {
+	background-color: #d9f1ff;
+	padding: 15px;
+}
+
+.ca-table thead tr th:first-child {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.ca-table thead tr th:last-child {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.ca-table tbody tr td {
+	padding: 15px;
+	font-size: 19px;
+}
+
+.ca-table tbody tr td:first-child {
+	font-weight: 600;
+}
+
+.pre-footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	padding: 60px 0 60px 0;
+}
+
+.pre-footer-card {
+	width: 80%;
+	background-color: #fff;
+	padding: 30px 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.pfc-left h1 {
+	font-size: 55px;
+	font-weight: 800;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.pfc-left p {
+	color: #696c80;
+	font-size: 22px;
+}
+
+.footer {
+	margin: 50px 0 60px 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-branding {
+	text-align: center;
+}
+
+.fb-top {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.fb-top img {
+	width: 40px;
+}
+
+.fb-top span {
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 5px;
+}
+
+.footer-links-box {
+	display: flex;
+	list-style: none;
+}
+
+.flb-links-list {
+	margin-right: 60px;
+}
+
+.flb-links-list h4 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 7px;
+}
+
+.flb-links {
+	list-style: none;
+}
+
+.flb-links li {
+	margin-bottom: 7px;
+}
+
+ .flb-links li a {
+	text-decoration: none;
+	color: #696c80;
+}
+
+.flb-links li a:hover {
+	text-decoration: underline;
 }
