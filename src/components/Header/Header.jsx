@@ -83,7 +83,7 @@ export default function Header() {
 					)}
 
 					<a href="https://www.myculture.ai" className={styles.logoText}>
-						<img src="/src/assets/myculture-logo.png" />
+						<img src="/myculture-ai-clone/myculture-logo.png" />
 						<h2>MyCulture.ai</h2>
 					</a>
 
