@@ -1,0 +1,143 @@
+.footer {
+	margin: 50px 0 60px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footerBranding {
+	text-align: center;
+	margin-right: 300px;
+}
+
+.fbTop {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.fbTop img {
+	width: 40px;
+}
+
+.fbTop span {
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 5px;
+}
+
+.footerLinksBox {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.flbLinksList {
+	margin-right: 60px;
+}
+
+.flbLinksList h4 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 7px;
+}
+
+.flbLinks {
+	list-style: none;
+}
+
+.flbLinks li {
+	margin-bottom: 7px;
+}
+
+ .flbLinks li a {
+	text-decoration: none;
+	color: #696c80;
+}
+
+.flbLinks li a:hover {
+	text-decoration: underline;
+}
+
+.csContainerBox {
+	z-index: 1010;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.cookieSettings {
+	width: 500px;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 40px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+}
+
+.csBox {
+	overflow-y: scroll;
+}
+
+.csBox h2 {
+	margin-bottom: 20px;
+}
+
+.csBox .requiredCheckbox {
+	opacity: 0.6;
+	cursor: default !important;
+}
+
+.csBottom {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.csBottom a {
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #000;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+.csBottom a:hover {
+	text-decoration: underline;
+}
+
+.csBottom p {
+	font-weight: 600;
+	color: #fff;
+	background-color: #000;
+	padding: 5px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.csBottom p:hover {
+	background-color: dimgray;
+}
+
+@media (max-width: 1300px) {
+	.footerBranding {
+		margin-right: 0;	
+	}
+
+	.footerLinksBox {
+		margin-top: 40px;
+	}
+}

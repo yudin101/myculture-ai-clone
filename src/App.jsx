@@ -5,6 +5,7 @@ import FeatureCard from "./components/FeatureCard/FeatureCard.jsx";
 import WorkingPoint from "./components/WorkingPoint/WorkingPoint.jsx";
 import PricingCard from "./components/PricingCard/PricingCard.jsx";
 import ResourceCard from "./components/ResourceCard/ResourceCard.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import "./App.css";
 
 export default function App() {
@@ -533,103 +534,9 @@ export default function App() {
 						</div>
 					</div>
 				</div>
-
-				<div className="footer">
-					<div className="footer-branding">
-						<div className="fb-top">
-							<img src="/myculture-ai-clone/myculture-logo.png" />
-							<span>MyCulture</span>
-						</div>
-						<p>Cookie Settings</p>
-					</div>
-
-					<ul className="footer-links-box">
-						<li className="flb-links-list">
-							<h4>Solutions</h4>
-							<ul className="flb-links">
-								<li>
-									<a href="https://happily.ai/">Happily.ai</a>
-								</li>
-								<li>
-									<a href="https://myculture.ai/">MyCulture.ai</a>
-								</li>
-							</ul>
-						</li>
-						<li className="flb-links-list">
-							<h4>Sitemap</h4>
-							<ul className="flb-links">
-								<li>
-									<a href="#how-it-works">How it works</a>
-								</li>
-								<li>
-									<a href="#pricing">Pricing</a>
-								</li>
-								<li>
-									<a href="#features">Features</a>
-								</li>
-								<li>
-									<a href="#resources">Resources</a>
-								</li>
-								<li>
-									<a href="https://www.myculture.ai/privacy-policy">
-										Privacy Policy
-									</a>
-								</li>
-								<li>
-									<a href="https://www.myculture.ai/terms-and-conditions">
-										Terms and Conditions
-									</a>
-								</li>
-							</ul>
-						</li>
-						<li className="flb-links-list">
-							<h4>Toolbox</h4>
-							<ul className="flb-links">
-								<li>
-									<a href="https://myculture.ai/job-post-generator">
-										Job Post Generator
-									</a>
-								</li>
-								<li>
-									<a href="https://myculture.ai/team-role-generator">
-										Team Role Generator
-									</a>
-								</li>
-								<li>
-									<a href="https://myculture.ai/30-60-90-day-plan-generator">
-										30/60/90-day Plan
-									</a>
-								</li>
-								<li>
-									<a href="https://myculture.ai/career-tracker-generator">
-										OKR Generator
-									</a>
-								</li>
-								<li>
-									<a href="https://myculture.ai/career-tracker-generator">
-										Career Tracker Generator
-									</a>
-								</li>
-								<li>
-									<a href="https://myculture.ai/performance-improvement-plan-generator">
-										Performance Improvement Plan
-									</a>
-								</li>
-							</ul>
-						</li>
-						<li className="flb-links-list">
-							<h4>Contact Us</h4>
-							<ul className="flb-links">
-								<li>
-									<a href="https://www.myculture.ai/contact-us">
-										Submit a Form
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
 			</div>
+
+			<Footer />
 		</>
 	);
 }

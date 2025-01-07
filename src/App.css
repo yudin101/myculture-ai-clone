@@ -299,67 +299,6 @@
 	font-size: 22px;
 }
 
-.footer {
-	margin: 50px 0 60px 15px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.footer-branding {
-	text-align: center;
-}
-
-.fb-top {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	margin-bottom: 20px;
-}
-
-.fb-top img {
-	width: 40px;
-}
-
-.fb-top span {
-	font-size: 20px;
-	font-weight: 600;
-	margin-left: 5px;
-}
-
-.footer-links-box {
-	display: flex;
-	flex-wrap: wrap;
-	list-style: none;
-}
-
-.flb-links-list {
-	margin-right: 60px;
-}
-
-.flb-links-list h4 {
-	font-size: 18px;
-	font-weight: 500;
-	margin-bottom: 7px;
-}
-
-.flb-links {
-	list-style: none;
-}
-
-.flb-links li {
-	margin-bottom: 7px;
-}
-
- .flb-links li a {
-	text-decoration: none;
-	color: #696c80;
-}
-
-.flb-links li a:hover {
-	text-decoration: underline;
-}
-
 
 
 @media (max-width: 1300px) {
@@ -422,9 +361,5 @@
 	.pfc-left p {
 		font-size: 18px;
 		margin-bottom: 2rem;
-	}
-
-	.footer-links-box {
-		margin-top: 40px;
 	}
 }

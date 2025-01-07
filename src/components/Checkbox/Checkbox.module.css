@@ -1,0 +1,52 @@
+.checkboxLabel {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+.labelDiv {
+	margin-left: 15px;
+}
+
+.checkboxLabel input[type="checkbox"] {
+	appearance: none;
+	-webkit-appearance: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 22px;
+	min-width: 22px;
+	padding-right: 3px;
+	cursor: pointer;
+	background: none;
+	border: 1px solid black;
+	border-radius: 4px;
+	transition: 0.1s;
+}
+
+.checkboxLabel input[type="checkbox"]:hover {
+	opacity: 0.6;
+}
+
+.checkboxLabel input[type="checkbox"]:after {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	font-size: 16px;
+	content: "\f00c";
+	visibility: hidden;
+}
+
+.checkboxLabel input[type="checkbox"]:checked:after {
+	visibility: visible;
+}
+
+.labelDiv h3 {
+	font-size: 20px;
+	margin-top: -6px;
+}
+
+.labelDiv p {
+	font-size: 17px;
+	font-weight: 300;
+}
