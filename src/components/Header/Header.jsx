@@ -8,69 +8,71 @@ export default function Header() {
 	return (
 		<>
 			{isSidebarActive && (
-				<div className={styles.sidebar}>
-					<ul className={styles.sidebarNavLinkBox}>
-						<li>
-							<a
-								onClick={() => setIsSidebarActive(!isSidebarActive)}
-								className={styles.sidebarNavLink}
-								href="#features"
-							>
-								Features
-							</a>
-						</li>
-						<li>
-							<a
-								onClick={() => setIsSidebarActive(!isSidebarActive)}
-								className={styles.sidebarNavLink}
-								href="#how-it-works"
-							>
-								How it works
-							</a>
-						</li>
-						<li>
-							<a
-								onClick={() => setIsSidebarActive(!isSidebarActive)}
-								className={styles.sidebarNavLink}
-								href="#assessments"
-							>
-								Assessments
-							</a>
-						</li>
-						<li>
-							<a
-								onClick={() => setIsSidebarActive(!isSidebarActive)}
-								className={styles.sidebarNavLink}
-								href="#pricing"
-							>
-								Pricing
-							</a>
-						</li>
-						<li>
-							<a
-								className={styles.sidebarNavLink}
-								href="https://blog.happily.ai"
-							>
-								Blog
-							</a>
-						</li>
-						<li>
-							<a
-								className={`${styles.sidebarButton} ${styles.navButton} ${styles.navButtonLogin}`}
-								href="https://app.myculture.ai/login"
-							>
-								Login
-							</a>
-						</li>
-						<li>
-							<a
-								className={`${styles.sidebarButton} ${styles.navButton} ${styles.navButtonRegister}`}
-								href="https://app.myculture.ai/signup"
-							>
-								Sign up
-							</a>
-						</li>
-					</ul>
+				<div className={styles.sidebarBackground} onClick={() => setIsSidebarActive(!isSidebarActive)}>
+					<div className={styles.sidebar} onClick={(e) => e.stopPropagation()}>
+						<ul className={styles.sidebarNavLinkBox}>
+							<li>
+								<a
+									onClick={() => setIsSidebarActive(!isSidebarActive)}
+									className={styles.sidebarNavLink}
+									href="#features"
+								>
+									Features
+								</a>
+							</li>
+							<li>
+								<a
+									onClick={() => setIsSidebarActive(!isSidebarActive)}
+									className={styles.sidebarNavLink}
+									href="#how-it-works"
+								>
+									How it works
+								</a>
+							</li>
+							<li>
+								<a
+									onClick={() => setIsSidebarActive(!isSidebarActive)}
+									className={styles.sidebarNavLink}
+									href="#assessments"
+								>
+									Assessments
+								</a>
+							</li>
+							<li>
+								<a
+									onClick={() => setIsSidebarActive(!isSidebarActive)}
+									className={styles.sidebarNavLink}
+									href="#pricing"
+								>
+									Pricing
+								</a>
+							</li>
+							<li>
+								<a
+									className={styles.sidebarNavLink}
+									href="https://blog.happily.ai"
+								>
+									Blog
+								</a>
+							</li>
+							<li>
+								<a
+									className={`${styles.sidebarButton} ${styles.navButton} ${styles.navButtonLogin}`}
+									href="https://app.myculture.ai/login"
+								>
+									Login
+								</a>
+							</li>
+							<li>
+								<a
+									className={`${styles.sidebarButton} ${styles.navButton} ${styles.navButtonRegister}`}
+									href="https://app.myculture.ai/signup"
+								>
+									Sign up
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			)}
 
